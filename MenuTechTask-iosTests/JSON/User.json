@@ -1,0 +1,31 @@
+{
+    "status": "OK",
+    "code": 200,
+    "data": {
+        "customer_account": {
+            "id": 926193,
+            "type_id": 1,
+            "reference_type": "CustomerAccount",
+            "customer_id": 884894,
+            "brand_id": 1,
+            "first_name": "Test",
+            "last_name": "Test",
+            "email": "test@testmenu.app",
+            "confirmed": false,
+            "phone_number": "",
+            "locale": "en",
+            "state": 1,
+            "demographics": [],
+            "optin_status_email": 3,
+            "optin_status_pn": 3,
+            "has_pending_email_change": false,
+            "updated_at": "2023-03-15 12:08:29",
+            "created_at": "2019-07-05 06:44:37"
+        },
+        "token": {
+            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2FwaS1xYS5tZW51LmFwcC9hcGkvY3VzdG9tZXJzL2xvZ2luIiwiaWF0IjoxNjc4ODgyMTA5LCJleHAiOjE2Nzg4ODU3MDksIm5iZiI6MTY3ODg4MjEwOSwianRpIjoidTczMzFBNm9vT3RqVWxRbCIsInN1YiI6IjkyNjE5MyIsInBydiI6ImNjMzI5MjFhMTU0ODBhMTE3ZDliYmM3MmMwZTEyNTZhNjg1MjQ1OGIiLCJhcHBsaWNhdGlvbl9pZCI6Mywic2Vzc2lvbl9pZCI6NzgzMDM4fQ.5NtALJts409Vf9WshAZUPeXNQsd10GkcUZC-QNBLekM",
+            "ttl": 60,
+            "refresh_ttl": 2628000
+        }
+    }
+}

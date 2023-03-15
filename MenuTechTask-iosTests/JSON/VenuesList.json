@@ -1,0 +1,265 @@
+{
+    "status": "OK",
+    "code": 200,
+    "data": {
+        "venues": [
+            {
+                "distance": 0.32,
+                "distance_in_miles": 0,
+                "venue": {
+                    "id": 397,
+                    "name": "Holy Cow Lausanne",
+                    "code": "",
+                    "parent_type": "Company",
+                    "parent_id": 361,
+                    "company_id": 361,
+                    "chain_id": 5,
+                    "country_id": 1,
+                    "currency_id": 2,
+                    "language_id": 3,
+                    "store_group_id": 9,
+                    "integration_store_group_id": 2957,
+                    "external_dlc_id": null,
+                    "brand_id": 1,
+                    "timezone": {
+                        "name": "Europe/Zurich",
+                        "offset": "+01:00"
+                    },
+                    "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "kiosk_receipt_footer": "",
+                    "imprint": "",
+                    "welcome_message": "",
+                    "translations": {
+                        "description": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                        "kiosk_receipt_footer": null,
+                        "welcome_message": null
+                    },
+                    "address": "Rue des terreaux 10",
+                    "state": 1,
+                    "city": "Lausanne",
+                    "zip": "1003",
+                    "latitude": 44.001783,
+                    "longitude": 21.269074,
+                    "tax_number": "",
+                    "phone": "21 312 24 04",
+                    "price_configuration": {
+                        "order_types": [
+                            {
+                                "type_id": 7,
+                                "price_configuration": 2
+                            }
+                        ],
+                        "external_channels": []
+                    },
+                    "used_price_configurations": [
+                        2
+                    ],
+                    "cuisine": "International",
+                    "store_url": "",
+                    "is_shown_in_directory": true,
+                    "allow_item_comments": false,
+                    "tip_default": 0,
+                    "tip_max": 0,
+                    "service_charge": 0,
+                    "pickup_time": 15,
+                    "is_pickup_on_open_allowed": false,
+                    "calculation_method": "inclusive",
+                    "image": {
+                        "thumbnail_small": "https://s3.eu-central-1.amazonaws.com/api.qa/images/venue_images/_thumbs280/2023-03-07/a5841bf315b14a55bf8f64d74089a7dc.jpeg",
+                        "thumbnail_medium": "https://s3.eu-central-1.amazonaws.com/api.qa/images/venue_images/_thumbs720/2023-03-07/a5841bf315b14a55bf8f64d74089a7dc.jpeg",
+                        "fullsize": "https://s3.eu-central-1.amazonaws.com/api.qa/images/venue_images/2023-03-07/a5841bf315b14a55bf8f64d74089a7dc.jpeg"
+                    },
+                    "available_payment_methods": [
+                        {
+                            "id": 917,
+                            "payment_method_id": 1,
+                            "payment_method_type_id": 1,
+                            "payment_method_brand": "Visa",
+                            "payment_processor_type_id": 0,
+                            "payment_processor_id": 0,
+                            "properties": null,
+                            "fraud_detection_processor_id": null,
+                            "visibility_scopes": null
+                        },
+                        {
+                            "id": 918,
+                            "payment_method_id": 2,
+                            "payment_method_type_id": 1,
+                            "payment_method_brand": "MasterCard",
+                            "payment_processor_type_id": 0,
+                            "payment_processor_id": 0,
+                            "properties": null,
+                            "fraud_detection_processor_id": null,
+                            "visibility_scopes": null
+                        }
+                    ],
+                    "country": {
+                        "id": 1,
+                        "currency_id": 2,
+                        "name": "Switzerland",
+                        "code": "CH",
+                        "code_alpha3": "CHE",
+                        "code_numeric": "756",
+                        "calling_code": "+41",
+                        "distance_unit": "km",
+                        "is_address_number_first": false,
+                        "currency_settings": {
+                            "currency_space": true,
+                            "decimal_separator": ".",
+                            "thousands_separator": "'",
+                            "symbol_position": "left"
+                        },
+                        "supported_travel_modes": [
+                            "driving",
+                            "bicycling"
+                        ],
+                        "available_payment_methods": [
+                            {
+                                "id": 1,
+                                "payment_method_id": 1,
+                                "payment_method_type_id": 1,
+                                "payment_method_brand": "Visa",
+                                "payment_processor_type_id": 0,
+                                "payment_processor_id": 0,
+                                "properties": null
+                            },
+                            {
+                                "id": 2,
+                                "payment_method_id": 2,
+                                "payment_method_type_id": 1,
+                                "payment_method_brand": "MasterCard",
+                                "payment_processor_type_id": 0,
+                                "payment_processor_id": 0,
+                                "properties": null
+                            }
+                        ]
+                    },
+                    "currency": {
+                        "id": 2,
+                        "code": "CHF",
+                        "code_numeric": "756",
+                        "symbol": "CHF",
+                        "rounding_unit": 0.01,
+                        "rounding_unit_tip": 0.01
+                    },
+                    "order_types": [
+                        {
+                            "id": 2278,
+                            "type_id": 4,
+                            "reference_type": "OrderTypePreorder",
+                            "state": 1,
+                            "is_table_supported": false,
+                            "external_channel_only": false
+                        },
+                        {
+                            "id": 2280,
+                            "type_id": 6,
+                            "reference_type": "OrderTypeTakeOut",
+                            "state": 1,
+                            "is_table_supported": false,
+                            "external_channel_only": false
+                        },
+                        {
+                            "id": 2987,
+                            "type_id": 7,
+                            "reference_type": "OrderTypeDelivery",
+                            "state": 1,
+                            "is_table_supported": false,
+                            "external_channel_only": false
+                        }
+                    ],
+                    "temporary_updated_entities": [],
+                    "serving_times": [],
+                    "is_open": true,
+                    "will_open": true,
+                    "has_discounts": false,
+                    "has_loyalty": true,
+                    "has_promotions": false,
+                    "has_delivery_integration": false,
+                    "delivery_integration_properties": null,
+                    "delivery_travel_type": "driving",
+                    "is_calculated_delivery_buffer_used": true,
+                    "is_monitoring_enabled": false,
+                    "is_threeds_enabled": false,
+                    "is_fraud_detection_enabled": false,
+                    "is_smart_orders_enabled": false,
+                    "use_pos_order_number": false,
+                    "kiosk_face_count": null,
+                    "is_order_regret_enabled": false,
+                    "is_billable": true,
+                    "default_delivery_buffer": 0,
+                    "integration": {
+                        "id": 2775,
+                        "type_id": 1,
+                        "reference_type": "Plain",
+                        "is_windows_pos": false,
+                        "pos_modifier_group_type": 1,
+                        "support_combo_meals": false,
+                        "max_comment_limit": 0
+                    },
+                    "created_at": "2019-11-12 16:50:02",
+                    "updated_at": "2023-03-07 12:20:04",
+                    "areas": [
+                        {
+                            "id": 677,
+                            "type_id": 3,
+                            "reference_type": "AreaQuickService",
+                            "venue_id": 397,
+                            "menu_id": 435,
+                            "singular_point_id": 5009,
+                            "pos_id": null,
+                            "name": "Quick Service",
+                            "use_tablet": true,
+                            "state": 1,
+                            "is_table_supported": 0,
+                            "properties": {
+                                "location_type": "table"
+                            },
+                            "order_types": [
+                                {
+                                    "id": 2278,
+                                    "type_id": 4,
+                                    "reference_type": "OrderTypePreorder",
+                                    "state": 1,
+                                    "is_table_supported": null,
+                                    "external_channel_only": false
+                                }
+                            ],
+                            "table_pos_id": null,
+                            "tablet": null
+                        },
+                        {
+                            "id": 678,
+                            "type_id": 4,
+                            "reference_type": "AreaTakeOut",
+                            "venue_id": 397,
+                            "menu_id": 435,
+                            "singular_point_id": 5010,
+                            "pos_id": null,
+                            "name": "Takeout",
+                            "use_tablet": true,
+                            "state": 1,
+                            "is_table_supported": 0,
+                            "properties": {
+                                "location_type": "table"
+                            },
+                            "order_types": [
+                                {
+                                    "id": 2280,
+                                    "type_id": 6,
+                                    "reference_type": "OrderTypeTakeOut",
+                                    "state": 1,
+                                    "is_table_supported": null,
+                                    "external_channel_only": false
+                                }
+                            ],
+                            "table_pos_id": null,
+                            "tablet": null
+                        }
+                    ],
+                    "menu_id": 1884
+                }
+            }
+        ]
+    }
+}
